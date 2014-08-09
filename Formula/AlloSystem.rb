@@ -1,8 +1,8 @@
 require 'formula'
 
 class Allosystem < Formula
-  head 'https://github.com/AlloSphere-Research-Group/AlloSystem', :tag => 'cmake1'
- #                                                    can use: :branch => "develop"
+#  head 'https://github.com/AlloSphere-Research-Group/AlloSystem', :tag => 'cmake1'
+  head 'https://github.com/AlloSphere-Research-Group/AlloSystem', :branch => "devel"
 
   depends_on 'cmake' => :build
   depends_on 'assimp'
